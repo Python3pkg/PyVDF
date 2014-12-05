@@ -2,8 +2,8 @@ PyVDF
 ==
 Parse VDFs and Valve KeyValue Files
 
-[![Build Status](https://travis-ci.org/amreuland/PyVDF.svg?branch=master)](https://travis-ci.org/amreuland/PyVDF)
-[![Coverage Status](https://img.shields.io/coveralls/amreuland/PyVDF.svg)](https://coveralls.io/r/amreuland/PyVDF)
+[![Build Status](https://img.shields.io/travis/amreuland/PyVDF.svg?branch=master&style=flat-square)](https://travis-ci.org/amreuland/PyVDF)
+[![Coverage Status](https://img.shields.io/coveralls/amreuland/PyVDF.svg?style=flat-square)](https://coveralls.io/r/amreuland/PyVDF)
 
 https://developer.valvesoftware.com/wiki/KeyValues
 

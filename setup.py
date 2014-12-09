@@ -27,12 +27,10 @@ setup(
     tests_require=['pytest'],
     py_modules=['PyVDF'],
     url='https://github.com/amreuland/PyVDF',
-    license=read('LICENSE.rst'),
     author='Austin Reuland',
     author_email='amreuland@gmail.com',
     keywords = "VDF KeyValues Valve",
     description='Python Library for reading VDFs and Valve KeyValue files',
-    long_description=read('README.rst'),
     platforms='any',
     cmdclass={'test': PyTest},
     classifiers = [

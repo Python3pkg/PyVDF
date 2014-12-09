@@ -23,9 +23,9 @@ def read(*parts):
 
 setup(
     name='PyVDF',
-    version='1.0.3',
+    version='1.0.4',
     tests_require=['pytest'],
-    py_modules=['PyVDF'],
+    packages=['PyVDF'],
     url='https://github.com/amreuland/PyVDF',
     author='Austin Reuland',
     author_email='amreuland@gmail.com',

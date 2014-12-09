@@ -22,6 +22,7 @@ setup(
     packages= [
         'PyVDF',
     ],
+    license='MIT',
     url='https://github.com/amreuland/PyVDF',
     author='Austin Reuland',
     author_email='amreuland@gmail.com',

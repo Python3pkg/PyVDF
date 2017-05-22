@@ -113,7 +113,7 @@ class PyVDF:
         filec.close()
         return data
     except IOError as e:
-      print("Could not open '" + f + "' for reading.")
+      print(("Could not open '" + f + "' for reading."))
       print("Ignore this if you are creating a new file.")
 
     return PyVDF.__UseDict()
@@ -245,7 +245,7 @@ class PyVDF:
     spacing = PyVDF.__OutputSpacing
     def loop(array, tab=''):
       string = ''
-      for k, v in array.items():
+      for k, v in list(array.items()):
         string += '{}"{}"'.format(tab,k)
         if isinstance(v, dict):
           string += '{}{{\n{}{}}}\n'.format(
@@ -280,7 +280,7 @@ class PyVDF:
       filec.write(data)
       filec.close()
     except IOError as e:
-      print("Could not open '" + f + "' for writing.")
+      print(("Could not open '" + f + "' for writing."))
       print(e)
 
   def load(self, f):
@@ -374,7 +374,7 @@ class PyVDF:
     :type paths: :py:obj:`str`
     :returns: The found value or an empty string if not found.
     """
-    return map(self.find, paths)
+    return list(map(self.find, paths))
 
   def editMany(self, paths):
     """
